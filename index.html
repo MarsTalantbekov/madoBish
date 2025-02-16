@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MADO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+
+</head>
+
+<body>
+
+    <header>
+
+            <nav>
+                <div class="nav-owl">
+                    <div class="nav-icon">
+                        <a href="#">MADO</a>
+                    </div>
+
+
+                   
+
+                    <div class="nav-list">
+                        <a href="#about-us">О нас</a>
+                        <a href="#menu">Меню</a>
+                        <a href="#buisnes-lunch">Бизнес Ланч</a>
+                        <a href="#footer">Контакты</a>
+                    </div>
+                    
+
+                    <div class="nav-reservation">
+                        <div class="nav-reservation__number">
+                            <div class="nav-reservation__number-img">
+                                <a href=""><img src="./img/phone.png" alt=""></a>
+                            </div>
+                            <div class="nav-reservation__number-num">
+                                <a href="tel:+996501005757">+996501005757</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="burger-menu" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div id="cart-toggle" class="cart-icon" onclick="toggleCart()">
+                        <img src="./img/cart.png" alt="Cart">
+                        <span id="cart-count">0</span>
+                    </div>
+
+                    <div id="my-modal" class="my-modal">
+                        <div class="my-modal__box">
+                            <div class="my-modal__box-top">
+                                <h2 class="modal-title">Корзина:</h2>
+                                <button id="close-my-modal__btn" class="close-my-modal-btn">X</button>
+                            </div>
+
+                            
+
+                            <div id="cart-items-container" class="cart-items-container"></div>
+                            <button id="clear-cart-btn" class="cart-clear-btn">Очистить корзину</button>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+
+        <div class="container">
+
+            <div class="header__banner">
+
+                <div class="header__text">
+                    <h1 class="header__text-title">MADO</h1>
+                    <p class="header__text-descr">
+                        Вкус турецкой кухни
+                    </p>
+                    <a class="header__text-btn" href="#menu">
+                        Посмотреть меню
+                    </a>
+                </div>
+
+                <div class="header__img">
+                    <img class="header__img-img" src="./img/mado-logo.jpg" alt="">
+                </div>
+
+            </div>
+           
+
+        </div>
+    </header>
+
+    <main>
+        <section class="about-us" id="about-us">
+            <div class="container">
+                <div class="about-us__block">
+                    <div class="about-us__text">
+                        <H4 class="about-us__text-title">
+                            Наша <p>История</p>
+                        </H4>
+                        <p class="about-us__text-descr">
+                            MADO — это уникальный бренд, который сочетает в себе лучшее из
+                            классических турецких традиций и современных трендов.
+                            MADO известна своими корнями в Турции и многолетними традициями приготовления мороженого и
+                            десертов. Мы
+                            стараемся передать эту атмосферу и уникальный вкус всем нашим гостям, где бы ни находились
+                            наши
+                            заведения.
+                        </p>
+
+                        <!-- <div class="about-us__text-info">
+                            <div class="text-info__franshiza">
+                                <p>Более</p>
+                                <p>300</p>
+                                <p>Франшиз по всему миру</p>
+                            </div>
+                            <div class="text-info__"></div>
+                        </div> -->
+                    </div>
+
+                    <div class="about-us__img">
+                        <img src="./img/about-us.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="distr-banner">
+            <div class="container">
+                <div class="distr-banner__owl">
+                    <div class="distr-banner__text">
+                        <h4>Попробуйте изысканный вкус турецкой кухни</h4>
+                    </div>
+                    <div class="distr-banner__btn">
+                        <a href="#menu">Посмотреть меню</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="menu" id="menu">
+            
+            <div class="container container-menu">
+                <h2 class="menu-title">Наше <span>Меню</span></h2>
+                <div class="owl-carousel owl-theme owl-loaded">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage">
+                            <div class="owl-item positions-menu">
+                                <button data-target="specialCutIce">Нарезное мороженое</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="iceCreamSnacks">Мороженое снэки</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="specialCoupe">Специальные чашки</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="hotDeserts">Горячие десерты</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="phistaBaklava">Фисташковая баклава</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="walnutsBaklava">Баклава с грецким орехом</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="desertPlate">Десеретные тарелки</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="breakfest">Завтраки</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="toastsGozleme">Тосты и Гозлеме</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="soup">Супы</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="snacks">Перекус</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="salade">Салат</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="pastas">Пасты</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="manty">Манты</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="pizza">Пицца</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="dyurum">Дюрюм</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="burgers">Бургеры</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="meatballs">Блюда с котлетой</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="dishMeat">Блюда с мясом</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="dishChicken">Блюда с курицей</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="coffee">Кофе</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="milksheik">Милкшейк</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="juice">Соки</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="lemonades">Лимонады</button>
+                            </div>
+                            <div class="owl-item positions-menu">
+                                <button data-target="coldDrinks">Холодные напитки</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom-nav">
+                    <button class="prev">←</button>
+                    <button class="next">→</button>
+                </div>
+                
+
+                <div id="specialCutIce" class="content"></div>
+                <div id="iceCreamSnacks" class="content"></div>
+                <div id="specialCoupe" class="content"></div>
+                <div id="hotDeserts" class="content"></div>
+                <div id="phistaBaklava" class="content"></div>
+                <div id="walnutsBaklava" class="content"></div>
+                <div id="desertPlate" class="content"></div>
+                <div id="breakfest" class="content"></div>
+                <div id="toastsGozleme" class="content"></div>
+                <div id="soup" class="content"></div>
+                <div id="snacks" class="content"></div>
+                <div id="salade" class="content"></div>
+                <div id="pastas" class="content"></div>
+                <div id="manty" class="content"></div>
+                <div id="pizza" class="content"></div>
+                <div id="dyurum" class="content"></div>
+                <div id="burgers" class="content"></div>
+                <div id="meatballs" class="content"></div>
+                <div id="dishMeat" class="content"></div>
+                <div id="dishChicken" class="content"></div>
+                <div id="coffee" class="content"></div>
+                <div id="milksheik" class="content"></div>
+                <div id="juice" class="content"></div>
+                <div id="lemonades" class="content"></div>
+                <div id="coldDrinks" class="content"></div>
+
+
+
+
+
+                
+            </div>
+        </section>
+
+        <section class="buisnes-lunch-section">
+            <div id="buisnes-lunch" class="buisnes-lunch" >
+                <h4 class="buisnes-lunch-title">Бизнес-ланч</h4>
+
+                <div class="buisnes-lunch-owl">
+                    <div class="buisnes-lunch__first buisnes-lunch-img">
+                        <img src="./img/buisnez-lunc-1.png" alt="">
+                    </div>
+                    <div class="buisnes-lunch__second buisnes-lunch-img">
+                        <img src="./img/buisnez-lunc-2.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div class="footer-map">
+            <span>Для отзывов и жалоб</span>
+            <a target="_blank" href="https://go.2gis.com/cTE9z">
+                <img class="map" src="./img/map.svg" alt="">
+            </a>
+        </div>
+
+        <div class="footer-text">
+            <p>©2024 MADO
+                ЦУМ2, Бишкек, Чуйская область, Кыргызстан
+                Телефон: +996501005757</p>
+        </div>
+
+        <div class="footer-social-media">
+            <span>Мы в социальных сетях</span>
+            <div class="footer-social-media__owl">
+                <a class="social-media__whats" target="_blank" href=" https://api.whatsapp.com/send?phone=996501005757">
+                    <img src="./img/whatsapp.svg" alt="">
+                </a>
+    
+                <a class="social-media__insta" target="_blank" href="https://www.instagram.com/mado.bishkek/">
+                    <img src="./img/instagram.svg" alt="">
+                </a>
+            </div>
+            
+        </div>
+
+    </footer>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    
+    <!-- owlcarousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+        <script src="./js/cart.js"></script>
+        <script src="./js/main.js"></script>
+</body>
+
+</html>
