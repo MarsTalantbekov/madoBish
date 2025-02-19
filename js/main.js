@@ -443,28 +443,28 @@ const cardsData = {
     toastsGozleme: [
       {
         title: 'Тост с брынзой',
-        description: 'Омлет менемен, сыр Мараш с нашей фермы, жирный сыр фета...',
+        // description: 'Омлет менемен, сыр Мараш с нашей фермы, жирный сыр фета...',
         weight: '170 г',
         price: '340 с',
         image: './img/breakfest/tost-with-brynza.png'
       },
       {
         title: 'Тост с брынзой',
-        description: 'Омлет менемен, сыр Мараш с нашей фермы, жирный сыр фета...',
+        // description: 'Омлет менемен, сыр Мараш с нашей фермы, жирный сыр фета...',
         weight: '170 г',
         price: '340 с',
         image: './img/breakfest/tost-with-turkish-cheese.jpg'
       },
       {
         title: 'Гозлеме с фаршем',
-        description: 'Омлет менемен, сыр Мараш с нашей фермы, жирный сыр фета...',
+        // description: 'Омлет менемен, сыр Мараш с нашей фермы, жирный сыр фета...',
         weight: '100 г',
         price: '390 с',
         image: './img/gozleme/gozleme-with-farsh.png'
       },
       {
         title: 'Гозлеме со шпинатом',
-        description: 'Омлет менемен, сыр Мараш с нашей фермы, жирный сыр фета...',
+        // description: 'Омлет менемен, сыр Мараш с нашей фермы, жирный сыр фета...',
         weight: '100 г',
         price: '380 с',
         image: './img/gozleme/gozleme-with-shpinat.png'
@@ -480,14 +480,14 @@ const cardsData = {
       },
       {
         title: 'Мисо суп',
-        description: 'Со сливочным соусом, долькой лимона и чесночными гренками',
+        // description: 'Со сливочным соусом, долькой лимона и чесночными гренками',
         weight: '300 г',
         price: '300 с',
         image: './img/soupe/soup-miso.jpg'
       },
       {
         title: 'Томатный суп',
-        description: 'Со сливочным соусом, долькой лимона и чесночными гренками',
+        description: 'Суп, приготовленный с жареными помидорами луком и тертым сыром Чеддер',
         weight: '300 г',
         price: '300 с',
         image: './img/soupe/soup-tomat.jpg'
@@ -526,63 +526,63 @@ const cardsData = {
     salade: [
       {
         title: 'Салат "Цезарь"',
-        description: 'Со сливочным соусом,',
+        description: 'Листья салата, смешанные с соусом цезарь, острыми гренками и сыром Пармезан',
         weight: '480 г',
         price: '450 с',
         image: './img/salade/cezar-chicken.jpg'
       },
       {
         title: 'Салат с руколлой и фркутами',
-        description: 'Со сливочным соусом,',
+        description: 'Фруктов, заправленные с листьями салата',
         weight: '350 г',
         price: '350 с',
         image: './img/salade/rukolla-with-fruit.jpg'
       },
       {
         title: 'Салат с тунцом',
-        description: 'Со сливочным соусом,',
+        description: 'Зеленые листья, смешанные с лимоном и оливковым маслом, руколлой, укропом, и тунцом',
         weight: '575 г',
         price: '480 с',
         image: './img/salade/salade-with-tunec.png'
       },
       {
         title: 'Салат с хрустящей курицей',
-        description: 'Со сливочным соусом,',
+        description: 'Хрустящие кусочки курицы, листья салата, помидоры, огурцы, морковь и сухари',
         weight: '460 г',
         price: '480 с',
         image: './img/salade/salade-with-chicken.png'
       },
       {
         title: 'Салат из филе с горчичным соусом',
-        description: 'Со сливочным соусом,',
+        description: 'Смесь зеленой зелени, с лимоном и оливковым маслом, руколлой, зеленым яблоком и жеренный стейк',
         weight: '525 г',
         price: '550 с',
         image: './img/salade/salade-with-steak.png'
       },
       {
         title: 'Салат из авокадо и с сыром "Тулум"',
-        description: 'Со сливочным соусом,',
+        description: 'Смесь сезонной, зелени, и лимоном и оливковым маслом, ломтиками авокадо, с сыром тулум и огурцом',
         weight: '430 г',
         price: '450 с',
         image: './img/salade/salade-with-tulum-avacado.png'
       },
       {
         title: 'Хрустящий баклажан',
-        description: 'Со сливочным соусом,',
+        description: 'Жареные баклажаны с помидорами и с соусом',
         weight: '400 г',
         price: '400 с',
         image: './img/salade/salade-baklazhan.png'
       },
       {
         title: 'Греческий салат',
-        description: 'Со сливочным соусом,',
+        description: 'Помидоры и огурцы, лук, оливки и сыр Фета',
         weight: '415 г',
         price: '480 с',
         image: './img/salade/salade-grek.png'
       },
       {
         title: 'Бурата с томатами',
-        description: 'Со сливочным соусом,',
+        description: '',
         weight: '380 г',
         price: '520 с',
         image: './img/special-menu/special-burata-tomata.png'
@@ -591,7 +591,7 @@ const cardsData = {
     pastas: [
       {
         title: 'Пенне с острым соусом"',
-        description: 'Паста пенне, смешанная о острым соусом, оливками и свежим базиликом',
+        description: 'Паста пенне, смешанная с острым соусом, оливками и свежим базиликом',
         weight: '340 г',
         price: '400 с',
         image: './img/pasta/pasta-arabiata.png'
@@ -637,7 +637,7 @@ const cardsData = {
       },
       {
         title: 'Пицца 4 сыра',
-        description: 'Моцарелла, томатный соус, острая колбаса, салями, помидоры, грибы и руколла',
+        description: 'Сыр моцарелла, в томатном соусе, сыр чеддер, сыр тулум, сыр мараш с нашей фермы и руколла',
         weight: '490 г',
         price: '600 с',
         image: './img/pizza/pizza-4-cheese.png'
@@ -695,21 +695,21 @@ const cardsData = {
     dyurum: [
       {
         title: 'Дюрюм с курицей',
-        description: 'Грибы, куриная грудка с луком, картофель-фри, кетчуп',
+        description: 'Грибы, зеленый и красный перец, куриная грудка с луком, подается вместе с картофелем-фри и кетчуп',
         weight: '450 г',
         price: '500 с',
         image: './img/durum/durum.png'
       },
       {
         title: 'Дюрюм с мясом',
-        description: 'Грибы, бон-филе с луком, картофель-фри, кетчуп',
+        description: 'Грибы, зеленый и красный перец бон-филе с луком, подается вместе с картофелем-фри и кетчуп',
         weight: '450 г',
         price: '550 с',
         image: './img/durum/durum.png'
       },
       {
         title: 'Тантуни ролл с йогуртом',
-        description: 'Грибы, бон-филе с луком, картофель-фри, кетчуп',
+        description: 'Тантуни подается с зеленью, зеленым перцем, картофелем фри, йогуртом и томатно-масляным соусом',
         weight: '530 г',
         price: '650 с',
         image: './img/durum/second-tantuni-roll-with-yougurt.png'
@@ -718,28 +718,28 @@ const cardsData = {
     burgers: [
       {
         title: 'Бургер с сыром чеддер',
-        description: 'Грибы, бон-филе с луком, картофель-фри, кетчуп',
+        description: 'Сыр чеддер, листья салата, помидоры, маринованный огурец, картофель фри и луковые кольца',
         weight: '465 г',
         price: '450 с',
         image: './img/burgers/burger-with-chedder.png'
       },
       {
         title: 'BBQ бургер',
-        description: 'Грибы, бон-филе с луком, картофель-фри, кетчуп',
+        description: 'Хрустящий лук, сыр чеддер, соус барбекью, картофель фри и луковые кольца',
         weight: '465 г',
         price: '400 с',
         image: './img/burgers/.png'
       },
       {
         title: 'Цезарь бургер с курицей',
-        description: 'Грибы, бон-филе с луком, картофель-фри, кетчуп',
+        description: 'Хрустящая курица, листья салата, маринованные огурцы, сыр пармезан и картофель фри',
         weight: '465 г',
         price: '400 с',
         image: './img/burgers/.png'
       },
       {
         title: 'MADO бургер',
-        description: 'Грибы, бон-филе с луком, картофель-фри, кетчуп',
+        description: 'Листья салата, помидор, соленый огурец и картофель спичка',
         weight: '465 г',
         price: '520 с',
         image: './img/burgers/burger-mado.png'
@@ -748,21 +748,21 @@ const cardsData = {
     meatballs: [
       {
         title: 'Котлетки с йогуртовым соусом',
-        description: 'Котлеты на гриле, йогурт, томатный соус, хрустящий картофель...',
+        description: 'Котлеты на гриле, йогурт, томатный соус, хрустящий картофель, обжаренный зеленый и красный перец и помидоры',
         weight: '585 г',
         price: '680 с',
         image: './img/dish-with-meatbalss/meatballs-with-yougurt.png'
       },
       {
         title: 'Фрикадельки с соусом',
-        description: 'Маленькие фрикадельки, обжаренные в сливочном соусе...',
+        description: 'Лук и грибы, смешанные со сливочным соусом, вместе с картофельным пюре с сыром и отварными овощами',
         weight: '545 г',
         price: '680 с',
         image: './img/dish-with-meatbalss/meatballs-frikadelki.png'
       },
       {
         title: 'Котлетки гриль',
-        description: 'Котлетки на гриле с жаренным помидорами и зеленым перцем...',
+        description: 'Котлетки на гриле с жареннымы помидорами и зеленым перцем картофелем фри, рисом, аджукой и лавашом',
         weight: '600 г',
         price: '680 с',
         image: './img/dish-with-meatbalss/meatballs-grill.png'
@@ -776,7 +776,7 @@ const cardsData = {
       },
       {
         title: 'Фрикадельки с кортефельным пюре',
-        description: 'Котлетки на гриле, лаваш, зеленый перец в баклажановом соусе',
+        description: 'Маленькие фрикадельки, обжаренные в сливочном масле, подается вместе с картофельным пюре и с турецким сыром',
         weight: '400 г',
         price: '680 с',
         image: './img/dish-with-meatbalss/meatballs-pure.png'
@@ -785,35 +785,35 @@ const cardsData = {
     dishMeat: [
       {
         title: 'Мясной шиш-кебаб',
-        description: 'Шиш, жереный зеленый перец, помидоры, с рисовым...',
+        description: 'Шиш, жереный зеленый перец, помидоры, с рисом и картофелем фри',
         weight: '595 г',
         price: '940 с',
         image: './img/dish-with-meat/meat-shish.png'
       },
       {
         title: 'Кебаб "Чельтик"',
-        description: 'Нарезное филе телятины, жараеный картофель, йогурт...',
+        description: 'Нарезное филе телятины, жареный картофель, йогурт, масляной томатный соус ',
         weight: '500 г',
         price: '750 с',
         image: './img/dish-with-meat/meat-cheltik.png'
       },
       {
         title: '"Сач-Кавурма"',
-        description: 'Традиционное припущенное мясо на сковороде с луком...',
+        description: 'Традиционное припущенное мясо на сковороде с луком, зеленым перцем и помидорами',
         weight: '400 г',
         price: '620 с',
         image: './img/dish-with-meat/meat-sach-kavurna.png'
       },
       {
         title: 'Вырезка с соусом "Cafe de Paris"',
-        description: 'Кусочки говяжьей вырезки на гриле с соусом...',
+        description: 'Кусочки говяжьей вырезки на гриле с соусом "Cafe de Paris"',
         weight: '470 г',
         price: '780 с',
         image: './img/dish-with-meat/meat-antrikot.png'
       },
       {
         title: 'Бараньи ребрышки',
-        description: 'Кусочки говяжьей вырезки на гриле с соусом...',
+        description: 'Бараньи ребрышки, подается вместе с рисом и соусом барбекью',
         weight: '650 г',
         price: '990 с',
         image: './img/dish-with-sheep/lamb-ribs.png'
@@ -822,49 +822,49 @@ const cardsData = {
     dishChicken: [
       {
         title: 'Курица со сливочным соусом и сыром',
-        description: 'Кусочки говяжьей вырезки на гриле с соусом...',
+        description: 'Куриное филе гриль, со сливочным соусом и сыром, подается вместе с рисом и картофелем фри',
         weight: '470 г',
         price: '650 с',
         image: './img/dish-with-chicken/chicken-with-creamy-sause.png'
       },
       {
         title: 'Куриный шашлык',
-        description: 'Кусочки маринованных куриных бедрышек, жаренные...',
+        description: 'Кусочки маринованных куриных бедрышек, жареные помидоры и зеленый перец',
         weight: '595 г',
         price: '640 с',
         image: './img/dish-with-chicken/chicken-shish.png'
       },
       {
         title: 'Курица с соусом "Бегенди"',
-        description: 'Куриные бедра на гриле с баклажанами...',
+        description: 'Куриные бедра на гриле с баклажанами, зеленым и красным перцем и вареными овощами',
         weight: '690 г',
         price: '640 с',
         image: './img/dish-with-chicken/chicken-begendi.png'
       },
       {
         title: 'Курица с соусом "Карри"',
-        description: 'Сливочный соус карри, куриное филе, подается...',
+        description: 'Сливочный соус карри, куриное филе, подается с рисом и картофелем фри',
         weight: '550 г',
         price: '640 с',
         image: './img/dish-with-chicken/chicken-with-carry.png'
       },
       {
         title: 'Куриный шницель',
-        description: 'Курица в панировке ломтиком лимона и свежим...',
+        description: 'Курица в панировке ломтиком лимона, картофелем фри и зеленью из капусты и моркови',
         weight: '400 г',
         price: '610 с',
         image: './img/dish-with-chicken/chicken-shinicel.png'
       },
       {
-        title: 'Куриная вырезка в соусе "Кафе де пари"',
-        description: 'Кусочки куриной вырезки на гриле с соусом...',
+        title: 'Куриная вырезка в соусе "Cafe de Paris"',
+        description: 'Кусочки куриной вырезки на гриле с соусом "Cafe de Paris" и картофелем фри',
         weight: '470 г',
         price: '610 с',
         image: './img/dish-with-chicken/chicken-with-cafe-de-paris.png'
       },
       {
         title: 'Курица гриль',
-        description: 'Кусочки куриной вырезки на гриле с соусом...',
+        description: 'Кусочки куриной вырезки на гриле с рисом и свежим салатом',
         weight: '475 г',
         price: '580 с',
         image: './img/dish-with-chicken/chicken-with-grill.png'
