@@ -347,23 +347,21 @@ nav {
 
 .owl-stage {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .owl-dots{
     display: none;
 }
 
-.positions-menu button {
-    width: 100%;
-    padding: 15px 20px;
-    font-weight: 700;
-    white-space: nowrap; 
-    overflow: hidden; /* Убирает лишний текст, если он выходит за пределы */
-    text-overflow: ellipsis; /* Добавляет "..." для слишком длинного текста */
-}
+
 
 .positions-menu {
-    width: 120px;
+    /* width: 120px; */
     background-color: var(--yellow);
     color: #fff;
     text-align: center;
@@ -372,6 +370,8 @@ nav {
     transition: 0.3s;
     display: inline-block; /* Оставляем элементы в одном ряду */
 }
+
+
   
 .positions-menu.active {
     background-color: var(--blue); /* Цвет для активного элемента */
@@ -384,6 +384,21 @@ nav {
     border: 1px solid #8a8a8a;
 }
 
+.positions-menu button { 
+    width: 100%;
+    padding: 15px 20px;
+    font-weight: 700;
+    white-space: nowrap; 
+    overflow: hidden; /* Убирает лишний текст, если он выходит за пределы */
+    text-overflow: ellipsis; /* Добавляет "..." для слишком длинного текста */
+}
+
+.subcategories-line {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
 
 /* content for menu */
 .owl-content__menu {
@@ -484,6 +499,7 @@ nav {
     gap: 20px;
 }
 
+/*                      БИЗНЕС ЛАНЧ */
 
 .buisnes-lunch {
     width: 100%;
@@ -520,19 +536,213 @@ nav {
     transform: scale(1.1);
 }
 
+/*          СПЕЦИАЛЬНОЕ МЕНЮ             */
+.special-menu {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 10%;
+}
 
-
-/* .menu-subtitle {
+.special-container-text {
     text-align: center;
     text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
-    color: #fff;
-    margin-top: 5%;
-} */
+}
+
+.special-menu__subtitle {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.special-menu__title {
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.special-menu-line {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.special-menu-owl {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.steiks {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.steiks-title {
+    font-size: 34px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.steiks-owl {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-dish__title {
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.special-dish__price {
+    
+}
+
+.steiks-line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--txt-btn);
+    margin-bottom: 20px;
+}
+
+.steiks-img {
+    width: 80%;
+    /* margin: auto; */
+}
+
+.steiks-img img {
+    /* border-radius: 10px; */
+}
+
+.steik-medalyon {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.steik-medalyon img {
+    width: 50%;
+    /* border-radius: 50px; */
+}
+
+.steik-medalyon__text {
+    width: 100%;
+}
+
+.medalyon-title {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.medalyon-title span {
+    font-weight: bold;
+}
+
+.guvech {
+    width: 50%;
+    text-align: end;
+}
+
+.guvech-text-top h5 {
+    font-size: 34px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.guvech-text-top p {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.guvech-img {
+    width: 50%;
+    margin:0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.guvech-img img {
+    /* border-radius: 10px; */
+}
+
+.guvech-title-dish {
+    width: 80%;
+    margin: auto;
+    text-align: start;
+}
+
+.guvech-title-dish__owl {
+    line-height: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.time-guvech {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    text-align: end;
+}
+
+.special-text__more-person {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+.more-person__owl {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-more__person-title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 23px;
+}
+.left-more__person-title span {
+    font-weight: bold;
+}
+
+.left-more__person-descr {
+    font-style: italic;
+    font-weight: 300;
+    line-height: 10px;
+}
+.left-more__person-price {
+    font-weight: bold;
+}
+.right-more__person-block {
+}
+
+.banket-img {
+    width: 60%;
+    margin: auto;
+    padding: 20px 0;
+}
 
 
-/* footer */
+/*                  footer          */
 
 footer {
     width: 100%;
@@ -729,3 +939,49 @@ footer {
 }
 
 
+
+#content-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.subcategories-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.subcategory {
+    color: #fff;
+    background-color: var(--yellow);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    white-space: nowrap; 
+    overflow: hidden; /* Убирает лишний текст, если он выходит за пределы */
+    text-overflow: ellipsis; /* Добавляет "..." для слишком длинного текста */
+    transition: 0.3s;
+}
+
+.subcategory.active {
+    background-color: var(--blue); /* Цвет для активного элемента */
+    color: white;
+    border: 1px solid #fff;
+}
+
+.subcategory:hover {
+    background-color: var(--blue);
+    border: 1px solid #fff;
+}
+
+.hidden {
+    display: none;
+}

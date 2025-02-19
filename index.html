@@ -40,6 +40,7 @@
                         <a href="#about-us">О нас</a>
                         <a href="#menu">Меню</a>
                         <a href="#buisnes-lunch">Бизнес Ланч</a>
+                        <a href="#special-menu">Спец Меню для банкета</a>
                         <a href="#footer">Контакты</a>
                     </div>
                     
@@ -149,7 +150,7 @@
                         <h4>Попробуйте изысканный вкус турецкой кухни</h4>
                     </div>
                     <div class="distr-banner__btn">
-                        <a href="#menu">Посмотреть меню</a>
+                        <a href="#special-menu">Посмотреть меню</a>
                     </div>
                 </div>
 
@@ -157,130 +158,69 @@
         </section>
 
         <section class="menu" id="menu">
-            
             <div class="container container-menu">
                 <h2 class="menu-title">Наше <span>Меню</span></h2>
+        
                 <div class="owl-carousel owl-theme owl-loaded">
                     <div class="owl-stage-outer">
                         <div class="owl-stage">
-                            <div class="owl-item positions-menu">
-                                <button data-target="specialCutIce">Нарезное мороженое</button>
+                            <!-- Главные категории -->
+                             <div class="owl-item positions-menu">
+                                <button class="main-category" data-category="bar">Бар</button>
                             </div>
                             <div class="owl-item positions-menu">
-                                <button data-target="iceCreamSnacks">Мороженое снэки</button>
+                                <button class="main-category" data-category="desserts">Десерты</button>
                             </div>
                             <div class="owl-item positions-menu">
-                                <button data-target="specialCoupe">Специальные чашки</button>
+                                <button class="main-category" data-category="breakfestCat">Завтраки</button>
                             </div>
                             <div class="owl-item positions-menu">
-                                <button data-target="hotDeserts">Горячие десерты</button>
+                                <button class="main-category" data-target="soup">Супы</button>
                             </div>
                             <div class="owl-item positions-menu">
-                                <button data-target="phistaBaklava">Фисташковая баклава</button>
+                                <button class="main-category" data-target="snacks">Перекус</button>
                             </div>
                             <div class="owl-item positions-menu">
-                                <button data-target="walnutsBaklava">Баклава с грецким орехом</button>
+                                <button class="main-category" data-target="salade">Салаты</button>
                             </div>
                             <div class="owl-item positions-menu">
-                                <button data-target="desertPlate">Десеретные тарелки</button>
+                                <button class="main-category" data-target="pastas">Пасты</button>
                             </div>
                             <div class="owl-item positions-menu">
-                                <button data-target="breakfest">Завтраки</button>
+                                <button class="main-category" data-target="manty">Манты</button>
                             </div>
                             <div class="owl-item positions-menu">
-                                <button data-target="toastsGozleme">Тосты и Гозлеме</button>
+                                <button class="main-category" data-target="pizza">Пицца</button>
                             </div>
                             <div class="owl-item positions-menu">
-                                <button data-target="soup">Супы</button>
+                                <button class="main-category" data-target="dyurum">Дюрюм</button>
                             </div>
                             <div class="owl-item positions-menu">
-                                <button data-target="snacks">Перекус</button>
+                                <button class="main-category" data-target="burgers">Бургеры</button>
                             </div>
                             <div class="owl-item positions-menu">
-                                <button data-target="salade">Салат</button>
+                                <button class="main-category" data-target="meatballs">Блюда с котлетой</button>
                             </div>
                             <div class="owl-item positions-menu">
-                                <button data-target="pastas">Пасты</button>
+                                <button class="main-category" data-target="dishMeat">Блюда с мясом</button>
                             </div>
                             <div class="owl-item positions-menu">
-                                <button data-target="manty">Манты</button>
-                            </div>
-                            <div class="owl-item positions-menu">
-                                <button data-target="pizza">Пицца</button>
-                            </div>
-                            <div class="owl-item positions-menu">
-                                <button data-target="dyurum">Дюрюм</button>
-                            </div>
-                            <div class="owl-item positions-menu">
-                                <button data-target="burgers">Бургеры</button>
-                            </div>
-                            <div class="owl-item positions-menu">
-                                <button data-target="meatballs">Блюда с котлетой</button>
-                            </div>
-                            <div class="owl-item positions-menu">
-                                <button data-target="dishMeat">Блюда с мясом</button>
-                            </div>
-                            <div class="owl-item positions-menu">
-                                <button data-target="dishChicken">Блюда с курицей</button>
-                            </div>
-                            <div class="owl-item positions-menu">
-                                <button data-target="coffee">Кофе</button>
-                            </div>
-                            <div class="owl-item positions-menu">
-                                <button data-target="milksheik">Милкшейк</button>
-                            </div>
-                            <div class="owl-item positions-menu">
-                                <button data-target="juice">Соки</button>
-                            </div>
-                            <div class="owl-item positions-menu">
-                                <button data-target="lemonades">Лимонады</button>
-                            </div>
-                            <div class="owl-item positions-menu">
-                                <button data-target="coldDrinks">Холодные напитки</button>
+                                <button class="main-category" data-target="dishChicken">Блюда с курицей</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="custom-nav">
-                    <button class="prev">←</button>
-                    <button class="next">→</button>
-                </div>
-                
+                <div class="subcategories-line"></div>
 
-                <div id="specialCutIce" class="content"></div>
-                <div id="iceCreamSnacks" class="content"></div>
-                <div id="specialCoupe" class="content"></div>
-                <div id="hotDeserts" class="content"></div>
-                <div id="phistaBaklava" class="content"></div>
-                <div id="walnutsBaklava" class="content"></div>
-                <div id="desertPlate" class="content"></div>
-                <div id="breakfest" class="content"></div>
-                <div id="toastsGozleme" class="content"></div>
-                <div id="soup" class="content"></div>
-                <div id="snacks" class="content"></div>
-                <div id="salade" class="content"></div>
-                <div id="pastas" class="content"></div>
-                <div id="manty" class="content"></div>
-                <div id="pizza" class="content"></div>
-                <div id="dyurum" class="content"></div>
-                <div id="burgers" class="content"></div>
-                <div id="meatballs" class="content"></div>
-                <div id="dishMeat" class="content"></div>
-                <div id="dishChicken" class="content"></div>
-                <div id="coffee" class="content"></div>
-                <div id="milksheik" class="content"></div>
-                <div id="juice" class="content"></div>
-                <div id="lemonades" class="content"></div>
-                <div id="coldDrinks" class="content"></div>
-
-
-
-
-
-                
+                <!-- Контейнер для подкатегорий -->
+                <div class="subcategories-container"></div>
+        
+                <!-- Контейнер для карточек товаров -->
+                <div id="content-container"></div>
             </div>
         </section>
+        
 
         <section class="buisnes-lunch-section">
             <div id="buisnes-lunch" class="buisnes-lunch" >
@@ -298,9 +238,123 @@
             </div>
         </section>
 
+        <section id="special-menu" class="special-menu">
+            <div class="container container-special__menu">
+                <div class="special-container-text">
+                    <p class="special-menu__subtitle">Специальное меню</p>
+                    <h5 class="special-menu__title">mado</h5>
+                </div>
+                <div class="special-menu-line">
+                    <img src="./img/line-for-special-menu.png" alt="">
+                </div>
+
+                <div class="special-menu-owl">
+                    <div class="steiks">
+                        <h5 class="steiks-title">Стейки</h5>
+
+                        <div class="steiks-ribay steiks-owl">
+                            <p class="ribay-title special-dish__title">Рибай</p>
+                            <p class="ribay-price special-dish__price">400гр/1400 с.</p>
+                        </div>
+                        <div class="steiks-cowboy steiks-owl">
+                            <p class="cowboy-title special-dish__title">Ковбой</p>
+                            <p class="cowboy-price special-dish__price">400гр/1400 с.</p>
+                        </div>
+                        <div class="steiks-Tibown steiks-owl">
+                            <p class="Tibown-title special-dish__title">Ти-Бон</p>
+                            <p class="Tibown-price special-dish__price">400гр/1400 с.</p>
+                        </div>
+                        <div class="steiks-medalyon steiks-owl">
+                            <p class="Tibown-title special-dish__title">Стейк Медальон</p>
+                            <p class="Tibown-price special-dish__price">400гр/750 с.</p>
+                        </div>
+                        <div class="steiks-semga steiks-owl">
+                            <p class="Tibown-title special-dish__title">Стейк из Семги</p>
+                            <p class="Tibown-price special-dish__price">400гр/750 с.</p>
+                        </div>
+                        <div class="steiks-shef steiks-owl">
+                            <p class="Tibown-title special-dish__title">Специальное от Шефа</p>
+                            <p class="Tibown-price special-dish__price">400гр/700 с.</p>
+                        </div>
+
+                        <div class="steiks-line"></div>
+
+                        <div class="steiks-img">
+                            <img src="./img/steak/steak-ti-bon.jpg" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="guvech">
+
+                        <div class="guvech-text-top">
+                            <h5>Гювеч</h5>
+                            <p>Томленное мясо на глиняной посуде</p>
+                        </div>
+
+                        <div class="guvech-img">
+                            <img src="./img/special-menu/special-guvech.png" alt="">
+                        </div>
+
+                        <div class="guvech-title-dish">
+                            <div class="guvech-title-dish__owl">
+                                <p class="guvech-title special-dish__title">Гювеч с мясом</p>
+                                <p class="guvech-price special-dish__price">750 с.</p>
+                            </div>
+                            <div class="guvech-title-dish__owl">
+                                <p class="guvech-title special-dish__title">Гювеч с курицей</p>
+                                <p class="guvech-price special-dish__price">650 с.</p>
+                            </div>
+                            <p class="time-guvech">Время приготовления 25 мин.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="special-text__more-person">
+                    <p>Специальное меню для банкета</p>
+                </div>
+
+                <div class="special-menu-line">
+                    <img src="./img/line-for-special-menu.png" alt="">
+                </div>
+
+                <div class="more-person__owl">
+                    <div class="left-more__person-block">
+                        <h5 class="left-more__person-title">сэт на 4 персоны <span>4480 с.</span></h5>
+                        <p class="left-more__person-descr">4 бараньи ребрышки</p>
+                        <p class="left-more__person-descr">4 шашлыка из курицы</p>
+                        <p class="left-more__person-descr">4 кофте</p>
+                        <p class="left-more__person-descr">8 куриных крылышек</p>
+                        <p class="left-more__person-descr">2 порции картошки фри</p>
+                        <p class="left-more__person-descr">4 гарнира (рис)</p>
+                        <p class="left-more__person-descr">Подается вместе с овощами гриль</p>
+                        <p class="left-more__person-descr">+ турецкий чай включен</p>
+                    </div>
+
+                    <div class="right-more__person-block">
+                        <h5 class="left-more__person-title">сэт на 6 персон <span>6720 с.</span></h5>
+                        <h5 class="left-more__person-title">сэт на 8 персон <span>8960 с.</span></h5>
+                        <h5 class="left-more__person-title">сэт на 10 персон <span>11200 с.</span></h5>
+                        <h5 class="left-more__person-title">сэт на 12 персон <span>13200 с.</span></h5>
+                        <h5 class="left-more__person-title">сэт на 15 персон <span>16550 с.</span></h5>
+                    </div>
+                </div>
+
+                <div class="banket-img">
+                    <img src="./img/special-menu/special-banket-dish.jpg" alt="">
+                </div>
+
+                
+            </div>
+        </section>
+
     </main>
 
     <footer id="footer">
+
+
+
         <div class="footer-map">
             <span>Для отзывов и жалоб</span>
             <a target="_blank" href="https://go.2gis.com/cTE9z">

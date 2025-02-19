@@ -64,6 +64,23 @@
         width: 45%;
     }
 
+    .card-price {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: end;
+        /* gap: 20px; */
+    }
+
+    .card-price__weight {
+        width: 40%;
+    }
+
+    .card-price__sum {
+        width: 110%;
+    }
+
 
 
     /*      buisnes lunch            */
@@ -85,6 +102,75 @@
     }
     .buisnes-lunch-img img:hover {
         transform: scale(1.2);
+    }
+
+    .special-menu {
+        width: 100%;
+    }
+
+    .special-menu .container  {
+        width: 100%;
+    }
+
+    .container-special__menu {
+        
+    }
+
+    .special-menu-owl {
+        width: 100%;
+    }
+
+    .steiks {
+        width: 50%;
+
+    }
+    .steiks-title {
+        font-size: 24px;
+    }
+    
+    .steiks-owl {
+    }
+
+    .special-dish__title {
+        font-size: 18px;
+    }
+  
+    .special-dish__price {
+        font-size: 14px;
+    }
+   
+    .steiks-line {
+    }
+
+    .steiks-img {
+        width: 100%;
+    }
+
+    .guvech {
+        width: 50%;
+    }
+    .guvech-text-top {
+    }
+    .guvech-img {
+        width: 70%;
+    }
+    
+    .special-text__more-person {
+    }
+    .more-person__owl {
+        width: 100%;
+    }
+    .left-more__person-block {
+        width: 100%;
+    }
+    .left-more__person-title {
+    }
+    .left-more__person-descr {
+    }
+    .right-more__person-block {
+    }
+    .banket-img {
+        width: 100%;
     }
 
 }
@@ -127,6 +213,7 @@
         border-bottom: 1px solid #ddd;
         background-color: var(--yellow);
     }
+
     .nav-list:first-child {
         margin-top: 10px;
     }
@@ -152,49 +239,31 @@
         font-size: 24px;
     }
 
-    .cart-item-remove img{
-    }
-
-
-
-
-
-
     /*                          header-banner               */
 
     .header__banner {
         width: 100%;
     }
-    .header__text {
-    }
+
     .header__text-title {
         font-size: 40px;
         margin: 0;
     }
+
     .header__text-descr {
         width: 100%;
         font-size: 24px;
         margin-top: 0;
     }
+
     .header__text-btn {
         display: flex;
         width: 100%;
         padding: 14px;
         font-size: 10px;
     }
-    .header__img {
-    }
 
     /*                      abou us          */
-
-    .about-us {
-    }
-    .container {
-    }
-    .about-us__block {
-    }
-    .about-us__text {
-    }
     .about-us__text-title {
         font-size: 34px;
     }
@@ -205,6 +274,8 @@
         height: 100%;
         width: 100%;
     }
+
+
 }
 
 
@@ -348,6 +419,62 @@
     .buisnes-lunch-img img:hover {
         transform: scale(1.3);
     }
+
+    .steiks-title {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .steiks-owl {
+        width: 100%;
+    }
+
+    .special-dish__title {
+        font-size: 14px;
+        font-weight: 400
+    }
+
+    .special-dish__price {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .guvech-text-top h5 {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .guvech-img {
+        width: 80%;
+    }
+
+    .guvech-title-dish__owl {
+        width: 100%;
+    }
+
+    .special-dish__title {
+        font-size: 12px;
+    }
+
+    .special-dish__price {
+        font-size: 10px;
+    }
+
+    .more-person__owl {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .left-more__person-title {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .left-more__person-descr {
+        font-size: 12px;
+    }
+
+    /*          footer           */
 
     footer {
         width: 100%;
