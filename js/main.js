@@ -476,13 +476,6 @@ const cardsData = {
         // image: './img/breakfest/tost-with-brynza.png'
       },
       {
-        title: 'Тост Ассорти',
-        description: 'Сулугуни, ',
-        weight: '170 г',
-        price: '340 с',
-        // image: './img/breakfest/tost-with-brynza.png'
-      },
-      {
         title: 'Гозлеме с сыром "Мараш"',
         description: 'Гозлеме приготовленные с сыром мараш и петрушкой, помидоры, огурцы и аджука',
         weight: '100 г',
@@ -567,7 +560,7 @@ const cardsData = {
       },
       {
         title: 'Салат с руколлой и фркутами',
-        description: 'Фруктов, заправленные с листьями салата',
+        description: 'Фрукты, заправленные с листьями салата',
         weight: '350 г',
         price: '350 с',
         image: './img/salade/rukolla-with-fruit.jpg'
@@ -730,14 +723,14 @@ const cardsData = {
       {
         title: 'Дюрюм с курицей',
         description: 'Грибы, зеленый и красный перец, куриная грудка с луком, подается вместе с картофелем-фри и кетчуп',
-        weight: '450 г',
+        weight: '350 г',
         price: '500 с',
         image: './img/durum/durum.png'
       },
       {
         title: 'Дюрюм с мясом',
         description: 'Грибы, зеленый и красный перец бон-филе с луком, подается вместе с картофелем-фри и кетчуп',
-        weight: '450 г',
+        weight: '350 г',
         price: '550 с',
         image: './img/durum/durum.png'
       },
@@ -758,6 +751,13 @@ const cardsData = {
         image: './img/burgers/burger-with-chedder.png'
       },
       {
+        title: 'MADO бургер',
+        description: 'Листья салата, помидор, соленый огурец и картофель спичка',
+        weight: '465 г',
+        price: '520 с',
+        image: './img/burgers/burger-mado.png'
+      },
+      {
         title: 'BBQ бургер',
         description: 'Хрустящий лук, сыр чеддер, соус барбекью, картофель фри и луковые кольца',
         weight: '465 г',
@@ -770,13 +770,6 @@ const cardsData = {
         weight: '465 г',
         price: '400 с',
         image: './img/burgers/.png'
-      },
-      {
-        title: 'MADO бургер',
-        description: 'Листья салата, помидор, соленый огурец и картофель спичка',
-        weight: '465 г',
-        price: '520 с',
-        image: './img/burgers/burger-mado.png'
       },
     ],
     meatballs: [
