@@ -106,8 +106,8 @@ const cardsData = {
       },
       {
         title: 'Мороженое с фисташковым Кадайыф',
-        description: 'Классическое мороженое с джемом',
-        weight: '100 г',
+        description: 'Классическое мороженое поверх Кадайыф',
+        weight: '150 г',
         price: '450 с',
         image: './img/ice-cream/ice-cream-kadayif.png'
       },
@@ -154,7 +154,7 @@ const cardsData = {
       title: 'Куп Тирамису',
       description: 'Ванильное, шоколадное мороженое, Тирамису с какао порошком',
       weight: ' г',
-      price: '450 с',
+      price: '900 с',
       image: './img/coupe/coupe-tiramisu.png'
     },
     {
@@ -232,7 +232,7 @@ const cardsData = {
     {
       title: 'Кунефе',
       description: 'Подается вместе с классическим мороженым и стаканом теплого молока',
-      weight: '100 г',
+      weight: '150 г',
       price: '600 с',
       image: './img/hot-deserts/kunefeh.png'
     },
@@ -261,63 +261,63 @@ const cardsData = {
     phistaBaklava: [
       {
         title: 'Фисташковая пахлава',
-        description: 'Подается вместе с молотым арахисом',
+        description: 'Подается вместе с молотым фисташкой',
         weight: '4 шт',
         price: '670 с',
         image: './img/baklava-desert/classic-baklava(4oct).png'
       },
       {
         title: 'Пахлава (длинный нарез)',
-        description: 'Подается вместе с молотым арахисом',
+        description: 'Подается вместе с молотым фисташкой',
         weight: '100 г',
         price: '740 с',
         image: './img/baklava-desert/baklava-long.png'
       },
       {
         title: 'Фисташковая бурма',
-        description: 'Подается вместе c мелко натертым фисташками',
+        description: 'Подается вместе c мелко натертыми фисташками',
         weight: '4 шт',
         price: '550 с',
         image: './img/baklava-desert/fit-burma.png'
       },
       {
         title: '"Тель" кадайыф с фисташками',
-        description: 'Подается вместе c мелко натертым фисташками',
+        description: 'Подается вместе c мелко натертыми фисташками',
         weight: '3 шт',
         price: '500 с',
         image: './img/baklava-desert/tel-kadayuf.png'
       },
       {
         title: '"Сарма" с фисташками',
-        description: 'Подается вместе c мелко натертым фисташками',
+        description: 'Подается вместе c мелко натертыми фисташками',
         weight: '4 шт',
         price: '930 с',
         image: './img/baklava-desert/sarma-with-fit.png'
       },
       {
         title: '"Долама" с фисташками',
-        description: 'Подается вместе c мелко натертым фисташками',
+        description: 'Подается вместе c мелко натертыми фисташками',
         weight: '4 шт',
         price: '950 с',
         image: './img/baklava-desert/dolama-with-fit.png'
       },
       {
         title: 'Фисташковая специальная пахлава',
-        description: 'Подается вместе c мелко натертым фисташками',
+        description: 'Подается вместе c мелко натертыми фисташками',
         weight: '3 шт',
         price: '750 с',
         image: './img/baklava-desert/classic-special-baklava(3oct).png'
       },
       {
         title: 'Мидии пахлава',
-        description: 'Подается вместе c мелко натертым фисташками',
+        description: 'Подается вместе c мелко натертыми фисташками',
         weight: '3 шт',
         price: '750 с',
         image: './img/baklava-desert/BAKLAVA-midi.png'
       },
       {
         title: 'Шоколадная пахлава',
-        description: 'Подается вместе c мелко натертым фисташками',
+        description: 'Подается вместе c мелко натертыми фисташками',
         weight: '4 шт',
         price: '750 с',
         image: './img/baklava-desert/chocolate-baklava.png'
@@ -344,6 +344,13 @@ const cardsData = {
         weight: '3 шт',
         price: '640 с',
         image: './img/baklava-desert/classic-special-baklava-with-walnuts(3oct).png'
+      },
+      {
+        title: 'Холодная баклава',
+        description: '',
+        weight: '4 шт',
+        price: '640 с',
+        image: './img/baklava-desert/.png'
       },
     ],
     desertPlate: [
@@ -372,69 +379,75 @@ const cardsData = {
     breakfest: [
       {
         title: 'Разнообразный завтрак',
-        description: 'Омлет менемен, сыр Мараш с нашей фермы, жирный сыр фета...',
+        description: 'Омлет менемен, сыр Мараш с нашей фермы, жирный сыр фета, сыр чеддер, сыр с травами, сыр тулум, булочка Мараш...',
         price: '1600 с',
         image: './img/breakfest/breakfest-mixed.png'
       },
       {
         title: 'Завтрак с кусочками Борека',
-        description: 'Два вареных яйца, сыр Мараш с нашей фермы, нежирный белый...',
+        description: 'Два вареных яйца, сыр Мараш с нашей фермы, белый сыр, сыр тулум, аджика, грецкие орехи, помидоры черри, огурец...',
         price: '990 с',
         image: './img/breakfest/breakfest-borek.png'
       },
       {
         title: 'Поздний завтрак',
-        description: 'Сыр «Мараш» с нашей фермы, нежирный белый сыр, сыр «Тулум»...',
+        description: 'Омлет из трех яиц, колбаса, картофель фри, белый сыр, сыр "Тулум", су борек, картофельные лепешки, ажика, грецкие орехи...',
         price: '1450 с',
         image: './img/breakfest/brakfest-late.png'
       },
       {
+        title: 'Вечерний завтрак',
+        description: 'Сыр "Мараш" с нашей фермы, белый сыр, сыр "Тулум", 2 картофельных шашлыка, фрикадельки, йогурт, перечное масло, суп, сырые...',
+        price: '1450 с',
+        image: './img/breakfest/brakfest-evening.png'
+      },
+      {
         title: 'Мой завтрак',
-        description: 'Сыр «Мараш» с нашей фермы, нежирный белый сыр, сыр «Тулум»...',
+        description: 'Сыр Мараш, сыр фета, сыр чеддер, Выпечка с сыром Мараш, вареное яйцо, зеленые и черные оливки, аджука, помидоры черри, огурец...',
         price: '750 с',
         image: './img/breakfest/brakfest-my.png'
       },
       {
         title: 'Завтрак с моно бореком',
-        description: 'Сыр «Мараш» с нашей фермы, нежирный белый сыр, сыр «Тулум»...',
+        description: 'Выдержанный сыр кашкавал, белый сыр, огурец, помидоры черри, руколла, соты, каймак, аджика, грецкий орех, сушеные абрикосы, зеленые...',
         price: '650 с',
         image: './img/breakfest/brakfest-mono-borek.png'
       },
       {
         title: 'Завтрак с круассаном',
-        description: 'Сыр «Мараш» с нашей фермы, нежирный белый сыр, сыр «Тулум»...',
+        description: 'Круассан, 2 ломтика телячьей ветчины, кашкавальский сыр, белый сыр, огурец, помидоры черри, руколла, варенье, из кислой черешни...',
         price: '650 с',
         image: './img/breakfest/brakfest-krusan.png'
       },
       {
         title: 'Деревенский завтрак MADO',
-        description: 'Сыр «Мараш» с нашей фермы, нежирный белый сыр, сыр «Тулум»...',
+        description: 'Сыр Мараш, сыр с травами, сыр тулум, сыр чеддер, фруктовый джем, аджука, товрог, сливки, масло, зеленые и черные оливки, две выпечки...',
         price: '900 с',
         image: './img/breakfest/brakfest-village.png'
       },
       {
         title: 'Быстрый завтрак',
-        description: 'Сыр «Мараш» с нашей фермы, нежирный белый сыр, сыр «Тулум»...',
+        description: 'Полножирный сыр фета, сыр чеддер, зеленые и черные оливки, помидоры черри, аджука, огурец, перец, вареное яйцо и фруктовый джем',
         price: '450 с',
         image: './img/breakfest/brakfest-fast.png'
       },
       {
-        title: 'Яичница с пасторами и колбасой',
-        description: 'Сыр «Мараш» с нашей фермы, нежирный белый сыр, сыр «Тулум»...',
+        title: 'Яичница с турецкой колбасой',
+        description: '2 яйца с турецкой колбасой',
         weight: '150 г',
         price: '380 с',
         image: './img/breakfest/egg-with-sausage.png'
       },
       {
         title: 'Менемен',
-        description: 'Сыр «Мараш» с нашей фермы, нежирный белый сыр, сыр «Тулум»...',
+        description: 'Яйцо скрэмбл, с овощами',
         weight: '270 г',
         price: '390 с',
         image: './img/breakfest/menemen.png'
       },
       {
-        title: 'Омлет с фри и зеленью',
-        description: 'Сыр «Мараш» с нашей фермы, нежирный белый сыр, сыр «Тулум»...',
+        title: 'Классический омлет',
+        description: 'На выбор: с зеленью/грибами/сыром',
         weight: '270 г',
         price: '380 с',
         image: './img/breakfest/omlet-with-egg.png'
@@ -442,29 +455,50 @@ const cardsData = {
     ],
     toastsGozleme: [
       {
-        title: 'Тост с брынзой',
-        // description: 'Омлет менемен, сыр Мараш с нашей фермы, жирный сыр фета...',
+        title: 'Тост с турецким сыром',
+        description: 'Тосты "Джамбо" с начинкой из турецкого сыра, подаются с зеленью и картофелем фри',
+        weight: '170 г',
+        price: '340 с',
+        image: './img/breakfest/toast-with-turkish-cheese.jpg'
+      },
+      {
+        title: 'Тост с сыром',
+        description: 'Средиземноморская зелень, помидоры черри и картофель фри со свежим сыром',
         weight: '170 г',
         price: '340 с',
         image: './img/breakfest/tost-with-brynza.png'
       },
       {
         title: 'Тост с брынзой',
-        // description: 'Омлет менемен, сыр Мараш с нашей фермы, жирный сыр фета...',
+        description: 'Заквашенный деревенский хлеб, оливковая паста, сыр фета, помидоры и зелень',
         weight: '170 г',
         price: '340 с',
-        image: './img/breakfest/tost-with-turkish-cheese.jpg'
+        // image: './img/breakfest/tost-with-brynza.png'
+      },
+      {
+        title: 'Тост Ассорти',
+        description: 'Сулугуни, ',
+        weight: '170 г',
+        price: '340 с',
+        // image: './img/breakfest/tost-with-brynza.png'
+      },
+      {
+        title: 'Гозлеме с сыром "Мараш"',
+        description: 'Гозлеме приготовленные с сыром мараш и петрушкой, помидоры, огурцы и аджука',
+        weight: '100 г',
+        price: '390 с',
+        image: './img/gozleme/gozleme-with-.png'
       },
       {
         title: 'Гозлеме с фаршем',
-        // description: 'Омлет менемен, сыр Мараш с нашей фермы, жирный сыр фета...',
+        description: 'Гозлеме приготовленные из фарша и лука, сухой джаджык с укропом и аджука',
         weight: '100 г',
         price: '390 с',
         image: './img/gozleme/gozleme-with-farsh.png'
       },
       {
         title: 'Гозлеме со шпинатом',
-        // description: 'Омлет менемен, сыр Мараш с нашей фермы, жирный сыр фета...',
+        description: 'Гозлеме приготовленные со шпинатом, сухой джаджык с укропом и аджука',
         weight: '100 г',
         price: '380 с',
         image: './img/gozleme/gozleme-with-shpinat.png'
@@ -479,11 +513,11 @@ const cardsData = {
         image: './img/soupe/soup-chechevichka.jpg'
       },
       {
-        title: 'Мисо суп',
+        title: 'Грибной суп',
         // description: 'Со сливочным соусом, долькой лимона и чесночными гренками',
         weight: '300 г',
         price: '300 с',
-        image: './img/soupe/soup-miso.jpg'
+        image: './img/soupe/soup-.jpg'
       },
       {
         title: 'Томатный суп',
@@ -503,7 +537,7 @@ const cardsData = {
       },
       {
         title: 'Тарелка закусок',
-        description: '',
+        description: 'Картофель фри, луковые кольца подается вместе с кетчупом',
         weight: '150 г',
         price: '550 с',
         image: './img/snack/plate-snack.png'
@@ -813,7 +847,7 @@ const cardsData = {
       },
       {
         title: 'Бараньи ребрышки',
-        description: 'Бараньи ребрышки, подается вместе с рисом и соусом барбекью',
+        description: 'Бараньи ребрышки, подается вместе с рисом и соусом Демиглас',
         weight: '650 г',
         price: '990 с',
         image: './img/dish-with-sheep/lamb-ribs.png'
@@ -821,8 +855,8 @@ const cardsData = {
     ],
     dishChicken: [
       {
-        title: 'Курица со сливочным соусом и сыром',
-        description: 'Куриное филе гриль, со сливочным соусом и сыром, подается вместе с рисом и картофелем фри',
+        title: 'Курица со сливочно-грибным соусом и сыром',
+        description: 'Куриное филе гриль, со сливочно-грибным соусом и сыром, подается вместе с рисом и картофелем фри',
         weight: '470 г',
         price: '650 с',
         image: './img/dish-with-chicken/chicken-with-creamy-sause.png'
@@ -904,21 +938,21 @@ const cardsData = {
         description: '',
         weight: '900 мл',
         price: '320 с',
-        image: './img/tea/tea-strawbaerry.png'
+        image: './img/tea/tea-oblepiha.png'
       },
       {
         title: 'Имбирный чай',
         description: 'Имбирь, мята и лимон',
         weight: '900 мл',
         price: '320 с',
-        image: './img/tea/tea-strawbaerry.png'
+        image: './img/tea/tea-imbir.png'
       },
       {
         title: 'Чай с мятой и лимоном',
         description: '',
         weight: '900 мл',
         price: '320 с',
-        image: './img/tea/tea-strawbaerry.png'
+        image: './img/tea/tea-limon-mint.png'
       },
       {
         title: 'Ябочный чай',
@@ -932,28 +966,28 @@ const cardsData = {
         description: '',
         weight: '900 мл',
         price: '320 с',
-        image: './img/tea/tea-strawbaerry.png'
+        image: './img/tea/tea-jasmin.png'
       },
       {
         title: 'Турецкий чай',
         description: '',
         weight: '900 мл',
         price: '200 с',
-        image: './img/tea/tea-strawbaerry.png'
+        // image: './img/tea/tea-assam.png'
       },
       {
         title: 'Молочный улун',
         description: '',
         weight: '900 мл',
         price: '190 с',
-        image: './img/tea/tea-strawbaerry.png'
+        // image: './img/tea/tea-strawbaerry.png'
       },
       {
         title: 'Сенча',
         description: '',
         weight: '900 мл',
         price: '190 с',
-        image: './img/tea/tea-strawbaerry.png'
+        // image: './img/tea/tea-strawbaerry.png'
       },
       
     ],
