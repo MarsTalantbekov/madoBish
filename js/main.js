@@ -80,14 +80,14 @@ const cardsData = {
         title: 'Классическое Нарезное Мороженое',
         description: 'Классическое, фисташковое мороженое, с джемом',
         weight: '200 г',
-        price: '610 с',
+        price: '700 с',
         image: './img/ice-cream/kesme-ice-cream.png'
       },
       {
         title: 'Нарезное Мороженое "MADO"',
         description: 'Два ломтика классического мороженого и две баклавы',
         weight: '200 г',
-        price: '550 с',
+        price: '690 с',
         image: './img/ice-cream/narezannoe-iceCream-mado.png'
       },
       {
@@ -226,14 +226,14 @@ const cardsData = {
       title: 'Кунефе с горячим шоколадом',
       description: 'Подается с горячим шоколадом и небольшим стаканом теплого молока',
       weight: '100 г',
-      price: '600 с',
+      price: '700 с',
       image: './img/hot-deserts/kunefeh-wirh-jam.png'
     },
     {
       title: 'Кунефе',
       description: 'Подается вместе с классическим мороженым и стаканом теплого молока',
       weight: '150 г',
-      price: '600 с',
+      price: '900 с',
       image: './img/hot-deserts/kunefeh.png'
     },
     {
@@ -276,7 +276,7 @@ const cardsData = {
       {
         title: 'Фисташковая бурма',
         description: 'Подается вместе c мелко натертыми фисташками',
-        weight: '4 шт',
+        weight: '3 шт',
         price: '550 с',
         image: './img/baklava-desert/fit-burma.png'
       },
@@ -562,7 +562,7 @@ const cardsData = {
         title: 'Салат с руколлой и фркутами',
         description: 'Фрукты, заправленные с листьями салата',
         weight: '350 г',
-        price: '350 с',
+        price: '430 с',
         image: './img/salade/rukolla-with-fruit.jpg'
       },
       {
@@ -689,6 +689,13 @@ const cardsData = {
         weight: '430 г',
         price: '530 с',
         image: './img/pizza/pizza-margarita.png'
+      },
+      {
+        title: 'Мясная пицца',
+        description: 'Мясо бон-филе вместе с сыром, грибами, оливками и луком',
+        weight: '490 г',
+        price: '780 с',
+        image: './img/pizza/pizza-meat.png'
       },
       {
         title: 'Лахмаджун',

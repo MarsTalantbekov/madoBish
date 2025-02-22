@@ -52,10 +52,6 @@
         width: 100%;
     }
 
-    .custom-nav {
-        /* top: 125px; */
-    }
-
     .content {
         width: 100%;
     }
@@ -70,7 +66,6 @@
         justify-content: space-between;
         align-items: center;
         text-align: end;
-        /* gap: 20px; */
     }
 
     .card-price__weight {
@@ -81,16 +76,12 @@
         width: 110%;
     }
 
-
-
     /*      buisnes lunch            */
-    .buisnes-lunch-section {
-    }
+
     .buisnes-lunch {
         height: 115vh;
     }
-    .buisnes-lunch-title {
-    }
+
     .buisnes-lunch-owl {
         display: flex;
         flex-direction: column;
@@ -100,6 +91,7 @@
         width: 60%;
         padding-top: 20px;
     }
+
     .buisnes-lunch-img img:hover {
         transform: scale(1.2);
     }
@@ -110,10 +102,6 @@
 
     .special-menu .container  {
         width: 100%;
-    }
-
-    .container-special__menu {
-        
     }
 
     .special-menu-owl {
@@ -128,9 +116,6 @@
         font-size: 24px;
     }
     
-    .steiks-owl {
-    }
-
     .special-dish__title {
         font-size: 18px;
     }
@@ -138,37 +123,45 @@
     .special-dish__price {
         font-size: 14px;
     }
-   
-    .steiks-line {
-    }
 
     .steiks-img {
         width: 100%;
     }
 
+    .steiks-shef-descr p {
+        font-size: 10px;
+    }
+
     .guvech {
         width: 50%;
     }
-    .guvech-text-top {
-    }
+
     .guvech-img {
         width: 70%;
     }
     
-    .special-text__more-person {
+    .special-choose__steiks {
+        font-size: 12px;
     }
+
+    .meze-list__owl  {
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .zapech-meze p {
+        font-size: 10px;
+    }
+
     .more-person__owl {
         width: 100%;
     }
+
     .left-more__person-block {
         width: 100%;
     }
-    .left-more__person-title {
-    }
-    .left-more__person-descr {
-    }
-    .right-more__person-block {
-    }
+
     .banket-img {
         width: 100%;
     }

@@ -599,10 +599,6 @@ nav {
     font-weight: 300;
 }
 
-.special-dish__price {
-    
-}
-
 .steiks-line {
     width: 100%;
     height: 1px;
@@ -612,11 +608,6 @@ nav {
 
 .steiks-img {
     width: 80%;
-    /* margin: auto; */
-}
-
-.steiks-img img {
-    /* border-radius: 10px; */
 }
 
 .steik-medalyon {
@@ -629,11 +620,17 @@ nav {
 
 .steik-medalyon img {
     width: 50%;
-    /* border-radius: 50px; */
 }
 
 .steik-medalyon__text {
     width: 100%;
+}
+
+.steiks-shef-descr p {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 0;
 }
 
 .medalyon-title {
@@ -648,6 +645,16 @@ nav {
 
 .medalyon-title span {
     font-weight: bold;
+}
+
+.special-menu__steiks-choose {
+}
+
+.special-choose__steiks {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 10px;
 }
 
 .guvech {
@@ -698,6 +705,38 @@ nav {
     font-style: italic;
     font-size: 12px;
     text-align: end;
+}
+
+.meze {
+}
+
+.meze-title {
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.meze-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: 300;
+}
+
+.meze-list__owl {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.zapech-meze p {
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
 }
 
 .special-text__more-person {
