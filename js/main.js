@@ -108,7 +108,7 @@ const cardsData = {
         title: 'Мороженое с фисташковым Кадайыф',
         description: 'Классическое мороженое поверх Кадайыф',
         weight: '150 г',
-        price: '450 с',
+        price: '850 с',
         image: './img/ice-cream/ice-cream-kadayif.png'
       },
     ],
