@@ -44,9 +44,17 @@ const categories = {
         name: "Чай", 
         target: "tea" 
       },
+      {
+        name: "Айс-Ти", 
+        target: "iceTea" 
+      },
       { 
         name: "Кофе", 
         target: "coffee" 
+      },
+      { 
+        name: "Айс-Кофе", 
+        target: "iceCoffee" 
       },
       { 
         name: "Милкшейк", 
@@ -59,6 +67,10 @@ const categories = {
       { 
         name: "Лимонады", 
         target: "lemonades" 
+      },
+      { 
+        name: "Смузи", 
+        target: "smoothie" 
       },
       { 
         name: "Холодные напитки", 
@@ -906,272 +918,347 @@ const cardsData = {
     ],
     tea: [
       {
-        title: 'Бардак чай',
-        description: '',
-        weight: '0.1 мл',
-        price: '50 с',
-        image: './img/tea/turkish-bardak.png'
+        title: 'Турецкий чай',
+        description: 'Крепко заваренный турецкий чай',
+        weight: '100 мл/800 мл',
+        price: '50 с/200 с',
+        image: './img/tea/tea-assam.png'
       },
       {
         title: 'Ассам',
-        description: '',
-        weight: '900 мл',
+        description: 'Сорт черного крупнолистового чая',
+        weight: '800 мл',
+        price: '190 с',
+        image: './img/tea/tea-assam.png'
+      },
+      {
+        title: 'Сенча',
+        description: 'Сорт темного зеленого чая с ярко-выраженным свежим вкусом',
+        weight: '800 мл',
         price: '190 с',
         image: './img/tea/tea-assam.png'
       },
       {
         title: 'Эрл Грей',
-        description: '',
-        weight: '900 мл',
+        description: 'Черный чай с добавлением бергамота',
+        weight: '800 мл',
         price: '190 с',
         image: './img/tea/tea-assam.png'
       },
       {
+        title: 'Молочный улун',
+        description: 'Китайский улун обработанный молочным экстрактом',
+        weight: '800 мл',
+        price: '190 с',
+        image: './img/tea/tea-assam.png'
+      },
+      {
+        title: 'Жасминовый чай',
+        description: 'Мягко тонизирующий напиток, с успокаивающим эффектом',
+        weight: '800 мл',
+        price: '190 с',
+        image: './img/tea/tea-assam.png'
+      },
+      {
+        title: 'Персиковый чай',
+        description: 'Черный чай на основе персикового сока с добавлением клубники, мяты и лайма',
+        weight: '800 мл',
+        price: '300 с',
+        image: './img/tea/tea-persik.png'
+      },
+      {
         title: 'Ягодный чай',
-        description: '',
-        weight: '900 мл',
-        price: '320 с',
+        description: 'Черный чай с добавлением ягодного пюре собственного производства',
+        weight: '800 мл',
+        price: '300 с',
         image: './img/tea/tea-strawbaerry.png'
       },
       {
         title: 'Облепиховый чай',
-        description: '',
-        weight: '900 мл',
-        price: '320 с',
+        description: 'Черный чай с добавлением облепихи и специй с ванильными нотками',
+        weight: '800 мл',
+        price: '300 с',
         image: './img/tea/tea-oblepiha.png'
       },
       {
         title: 'Имбирный чай',
-        description: 'Имбирь, мята и лимон',
-        weight: '900 мл',
-        price: '320 с',
+        description: 'Зеленый чай с добавлением свежего имбиря, лимона, меда и мяты',
+        weight: '800 мл',
+        price: '300 с',
         image: './img/tea/tea-imbir.png'
       },
       {
-        title: 'Чай с мятой и лимоном',
-        description: '',
-        weight: '900 мл',
-        price: '320 с',
-        image: './img/tea/tea-limon-mint.png'
+        title: 'Марокканский чай',
+        description: 'Зеленый чай с добавлением специй и цитрусов',
+        weight: '800 мл',
+        price: '300 с',
+        image: './img/tea/tea-marok.png'
       },
+    ],
+    iceTea: [
       {
-        title: 'Ябочный чай',
-        description: 'Яблоко и корица',
-        weight: '900 мл',
-        price: '320 с',
-        image: './img/tea/tea-strawbaerry.png'
-      },
-      {
-        title: 'Жасминовый чай',
-        description: '',
-        weight: '900 мл',
-        price: '320 с',
-        image: './img/tea/tea-jasmin.png'
-      },
-      {
-        title: 'Турецкий чай',
-        description: '',
-        weight: '900 мл',
+        title: 'Черный айс ти',
+        description: 'Это прохлада и свежесть в каждой капле! Бодрит идеально утоляя жажду в жаркий день',
+        weight: '450 мл',
         price: '200 с',
-        // image: './img/tea/tea-assam.png'
+        image: './img/tea/ice-tea-black.png'
       },
       {
-        title: 'Молочный улун',
-        description: '',
-        weight: '900 мл',
-        price: '190 с',
-        // image: './img/tea/tea-strawbaerry.png'
+        title: 'Зеленый айс ти',
+        description: 'Это легкая свежесть с цитрусовым акцентом! Освежающий зеленый чай с ломтиками лимона и мяты',
+        weight: '450 мл',
+        price: '200 с',
+        image: './img/tea/ice-tea-green.png'
       },
-      {
-        title: 'Сенча',
-        description: '',
-        weight: '900 мл',
-        price: '190 с',
-        // image: './img/tea/tea-strawbaerry.png'
-      },
-      
     ],
     coffee: [
       {
         title: 'Турецкое кофе',
-        description: 'На выбор: С мастикой, Дибек',
-        weight: '250 г',
+        description: 'Крепкий турецкий кофе сваренный в турке',
+        weight: '80 мл',
         price: '240 с',
         image: './img/coffee/turkish-coffee.png'
       },
       {
         title: 'Эспрессо',
-        description: 'Чистое кофе',
-        weight: '250 г',
-        price: '120 с',
+        description: 'Концентрированный кофейный напиток',
+        weight: '40 мл',
+        price: '160 с',
         image: './img/coffee/coffe-espresso.png'
       },
       {
         title: 'Капучино',
-        description: '2 шота эспрессо, молоко',
-        weight: '250/350 мл',
-        price: '180/200 с',
+        description: 'Кофейный напиток с добавлением молока и пены',
+        weight: '220/330 мл',
+        price: '220/240 с',
         image: './img/coffee/coffe-capuch.png'
       },
       {
         title: 'Латте',
-        description: 'Шот эспрессо, молоко',
-        weight: '250/350 мл',
-        price: '210/350 с',
+        description: 'Молочный напиток с добавлением одного шота эспрессо',
+        weight: '330 мл',
+        price: '240 с',
         image: './img/coffee/coffe-latte.png'
       },
       {
         title: 'Американо',
-        description: '2 шота эспрессо, вода',
-        weight: '250/350 мл',
-        price: '180/200 с',
+        description: 'Классический эспрессо с добавлением воды',
+        weight: '200мл',
+        price: '200 с',
         image: './img/coffee/coffee-amerikano.png'
       },
       {
         title: 'Флэт-Уайт',
-        description: '2 шота эспрессо, молоко',
-        weight: '250 мл',
+        description: 'Насыщенный кофейный напиток с добавлением малого количества молока и пены',
+        weight: '200 мл',
         price: '220 с',
         image: './img/coffee/coffe-flet.png'
       },
       {
-        title: 'Макиато',
-        description: 'Шот эспрессо покрытый молочной пенкой',
-        weight: '250/350 мл',
-        price: '120 с',
-        image: './img/coffee/coffe-mocchiatio.png'
+        title: 'Японский кофе с грибами (без молока, с молоком)',
+        description: 'Сублимированный кофе с добавлением полезных грибов для нервной системы',
+        weight: '250 мл',
+        price: '200/220 с',
+        image: './img/coffee/coffe-jap.png'
       },
       {
         title: 'Матча',
-        description: '',
-        weight: '250/350 мл',
-        price: '220/240 с',
+        description: 'Японский чай, с мягким, ярким вкусом с тонизирующим эффектом',
+        weight: '330 мл',
+        price: '240 с',
         image: './img/coffee/coffe-macha.png'
       },
       {
-        title: 'Раф',
-        description: '',
+        title: 'Какао',
+        description: 'Натуральные плоды какао, дробленные до состояния порошка с добавлением молока',
+        weight: '330 мл',
+        price: '240 с',
+        image: './img/coffee/coffe-kakao.png'
+      },
+      {
+        title: 'Раф (Ванильный, цитрусовый, лавандовый)',
+        description: 'Нежный, сливочный, кофейный напиток с добавлением натуральных основ',
         weight: '250 мл',
         price: '250 с',
         image: './img/coffee/coffe-raf.png'
       },
-      {
-        title: 'Фраппе',
-        description: '',
-        weight: '350 мл',
-        price: '250 с',
-        image: './img/ice-coffee/ice-frappe.png'
-      },
+    ],
+    iceCoffee: [
       {
         title: 'Айс-Американо',
-        description: '2 шота эспрессо и вода со льдом',
-        weight: '350 мл',
-        price: '190 с',
+        description: 'Это легкая прохлада с ярким кофейным характером! Бодрящий напиток с чистым вкусом и легкой горчинкой, отлично освежает и дарит энергию',
+        weight: '330 мл',
+        price: '200 с',
         image: './img/ice-coffee/ice-americano.png'
       },
       {
         title: 'Айс-Латте',
-        description: 'Шот эспрессо и молоко со льдом',
-        weight: '350 мл',
-        price: '210 с',
-        image: './img/ice-coffee/ice-latte.png'
-      },
-      {
-        title: 'Айс-Капучино',
-        description: '2 шота эспрессо и молоко со льдом',
-        weight: '350 мл',
-        price: '220 с',
+        description: 'Это прохладная элегантность в стакане! Молоко встречается с половиной эспрессо создавая стильный напиток',
+        weight: '330 мл',
+        price: '240 с',
         image: './img/ice-coffee/ice-capuch.png'
       },
       {
-        title: 'Айс-Мокко',
-        description: '',
-        weight: '350 мл',
-        price: '250 с',
-        image: './img/ice-coffee/ice-mocha.png'
+        title: 'Айс-Капучино',
+        description: 'Это бодрящий коктейль из прохлады и аромата! Холодное молоко и насыщенный эспрессо соединяются в освежающий напиток',
+        weight: '330 мл',
+        price: '240 с',
+        image: './img/ice-coffee/ice-capuch.png'
       },
       {
-        title: 'Айс-Аффогато',
-        description: '',
-        weight: '350 мл',
-        price: '310 с',
-        image: './img/ice-coffee/ice-mocha.png'
+        title: 'Ice bounty',
+        description: 'Кокосовое молоко раскрывается нежной сливочной сладостью, а какао добавляет глубокий шоколадный оттенок',
+        weight: '450 мл',
+        price: '280 с',
+        image: './img/ice-coffee/ice-bounty.png'
+      },
+      {
+        title: 'Ice matcha',
+        description: 'Свежесть и энергия в ярко зеленом стакане! Матча с молоком в холодном интерпертации',
+        weight: '450 мл',
+        price: '260 с',
+        image: './img/ice-coffee/ice-matcha.png'
+      },
+      {
+        title: 'Эспрессо-тоник',
+        description: 'Освежающий напиток, сочетает в себе крепкий вкус эспрессо и игристость тоника',
+        weight: '330 мл',
+        price: '250 с',
+        image: './img/ice-coffee/ice-tonic.png'
+      },
+      {
+        title: 'Апельсиновый бамбл',
+        description: 'Яркий, освежающий коктейль. Апельсиновый сок в сочетании крепкого эспрессо дает идельный баланс для гурманов',
+        weight: '330 мл',
+        price: '350 с',
+        image: './img/ice-coffee/ice-boomble.png'
       },
     ],
     milksheik: [
       {
-        title: 'Клубничный милкшейк',
-        description: 'Клубничное мороженое и молоко',
-        weight: '250 мл',
-        price: '360 с',
-        image: './img/milksheik/milksheik-strawbaerry.png'
+        title: 'Ванильно-молочный милкшейк',
+        description: 'Это нежность в каждом глотке! Молоко и мороженое создает кремовую основу, а ваниль добавляет тонкий аромат и сладкий акцент',
+        weight: '350 мл',
+        price: '300 с',
+        image: './img/milksheik/milksheik-vanile.png'
       },
       {
-        title: 'Молочный милкшейк',
-        description: 'Молочное мороженое и молоко',
-        weight: '250 мл',
-        price: '360 с',
-        image: './img/milksheik/milksheik-classic.png'
+        title: 'Тропический милкшейк',
+        description: 'Вкус отпуска в каждом глотке! Манго, маракуя и банан создают яркий фруктовый дуэт, а мороженое и молоко придают напитку нежную сливочность',
+        weight: '350 мл',
+        price: '300 с',
+        image: './img/milksheik/milksheik-tropic.png'
       },
       {
         title: 'Шоколадный милкшейк',
-        description: 'Шоколадное мороженое и молоко',
-        weight: '250 мл',
-        price: '360 с',
+        description: 'Густое наслаждение для сладкоежек! Какао, молоко и шарик мороженого сливается в насыщенный, кремвый напиток',
+        weight: '350 мл',
+        price: '300 с',
         image: './img/milksheik/milksheik-chocolate.png'
-      },
-      {
-        title: 'Фисташковый милкшейк',
-        description: 'Фисташковое мороженое и молоко',
-        weight: '250 мл',
-        price: '360 с',
-        image: './img/milksheik/milksheik-phista.png'
       },
     ],
     juice: [
       {
         title: 'Свежевыжатый Апельсиновый сок',
-        description: '',
+        description: 'Бодрящий напиток с содержанием большого количества витамина "C"',
         weight: '250 мл',
-        price: '190 с',
-        image: './img/juice/juice-orange.png'
+        price: '280 с',
+        image: './img/juice/juice.png'
+      },
+      {
+        title: 'Свежевыжатый Грейпфрутовый сок',
+        description: 'Напиток обладающий ярким вкусом и пикантной горчинкой',
+        weight: '250 мл',
+        price: '300 с',
+        image: './img/juice/juice.png'
       },
       {
         title: 'Свежевыжатый Яблочный сок',
-        description: '',
+        description: 'Освежающий напиток, благотворно влияющий на организм',
         weight: '250 мл',
         price: '270 с',
-        image: './img/juice/juice-apple.png'
+        image: './img/juice/juice.png'
+      },
+      {
+        title: 'Свежевыжатый Морковный сок',
+        description: 'Сок моркови богат витаминами, положительно влияет на здоровье',
+        weight: '250 мл',
+        price: '260 с',
+        image: './img/juice/juice.png'
       },
     ],
     lemonades: [
       {
+        title: 'Лимонад малина-имбирь',
+        description: 'Кисло-сладкий вкус малины в сочетании с терпкостью свежего имбиря',
+        weight: '450/1 л',
+        price: '250/480 с',
+        image: './img/lemonades/lemonade-imbir.png'
+      },
+      {
+        title: 'Лимонад клубника-базилик',
+        description: 'Освежающий напиток с ярким ароматом и нежным вкусом',
+        weight: '450/1 л',
+        price: '250/480 с',
+        image: './img/lemonades/lemonade-bazilic.png'
+      },
+      {
+        title: 'Цитрусовый лимонад',
+        description: 'Домашний лимонад из ярких цитрусов, идеальный напиток для жаркого лета',
+        weight: '450/1 л',
+        price: '250/480 с',
+        image: './img/lemonades/lemonade-tropic.png'
+      },
+      {
         title: 'Лимонад манго-маракуйя',
-        description: '',
-        weight: '250/1 л',
-        price: '250/520 с',
+        description: 'Экзотический вкус тропических фруктов, сочный',
+        weight: '450/1 л',
+        price: '250/480 с',
         image: './img/lemonades/lemonade-mango-marakuya.png'
       },
       {
+        title: 'Лимонад огурец-киви',
+        description: 'Необычное сочетание свежего огурца и кисло-сладкого киви',
+        weight: '450/1 л',
+        price: '250/480 с',
+        image: './img/lemonades/lemonade-ogurec.png'
+      },
+      {
         title: 'Лимонад мохито',
-        description: '',
-        weight: '250/1 л',
-        price: '250/520 с',
+        description: 'Лимонад из мировой классики свежесть лайма и мяты танцуют на волнах газированной воды ',
+        weight: '450/1 л',
+        price: '250/480 с',
         image: './img/lemonades/lemonade-mohito.png'
       },
       {
-        title: 'Лимонад клубничный',
-        description: '',
-        weight: '250/1 л',
-        price: '250/520 с',
+        title: 'Лимонад ягодный микс',
+        description: 'Кисло-сладкий, освежающий напиток на основе свежих ягод',
+        weight: '450/1 л',
+        price: '250/480 с',
         image: './img/lemonades/lemonade-strawberry.png'
       },
+    ],
+    smoothie: [ 
       {
-        title: 'Лимонад лимон и апельсин',
-        description: '',
-        weight: '250/1 л',
-        price: '250/520 с',
-        image: './img/lemonades/lemonade-classic.png'
+        title: 'Финиковое смузи',
+        description: 'Нежный, бархатистый финиковый смузи - это натуральная сладость без капли сахара, идельный заряд энергии',
+        weight: '300 мл',
+        price: '280 с',
+        image: './img/smoothie/smo-finik.png'
+      },
+      {
+        title: 'Тропическое смузи',
+        description: 'Это солнечный взрыв вкуса! Спелый банан, сочное манго и ароматная маракуя, который освежает и переносит прямо в лето',
+        weight: '300 мл',
+        price: '280 с',
+        image: './img/smoothie/smo-tropic.png'
+      },
+      {
+        title: 'Ягодное смузи',
+        description: 'Это яркий вихрь летав стакане! Смородина, клубника, малина и банан сливаются в насыщенно-розовый напиток с приятной кислинкой',
+        weight: '300 мл',
+        price: '280 с',
+        image: './img/smoothie/smo-strawberry.png'
       },
     ],
     coldDrinks: [
