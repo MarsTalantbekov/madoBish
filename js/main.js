@@ -1096,7 +1096,7 @@ const cardsData = {
         description: 'Это прохладная элегантность в стакане! Молоко встречается с половиной эспрессо создавая стильный напиток',
         weight: '330 мл',
         price: '240 с',
-        image: './img/ice-coffee/ice-capuch.png'
+        image: './img/ice-coffee/ice-latte.png'
       },
       {
         title: 'Айс-Капучино',
@@ -1163,28 +1163,28 @@ const cardsData = {
         description: 'Бодрящий напиток с содержанием большого количества витамина "C"',
         weight: '250 мл',
         price: '280 с',
-        image: './img/juice/juice.png'
+        image: './img/juice/juice-orange.png'
       },
       {
         title: 'Свежевыжатый Грейпфрутовый сок',
         description: 'Напиток обладающий ярким вкусом и пикантной горчинкой',
         weight: '250 мл',
         price: '300 с',
-        image: './img/juice/juice.png'
+        image: './img/juice/juice-greip.png'
       },
       {
         title: 'Свежевыжатый Яблочный сок',
         description: 'Освежающий напиток, благотворно влияющий на организм',
         weight: '250 мл',
         price: '270 с',
-        image: './img/juice/juice.png'
+        image: './img/juice/juice-apple.png'
       },
       {
         title: 'Свежевыжатый Морковный сок',
         description: 'Сок моркови богат витаминами, положительно влияет на здоровье',
         weight: '250 мл',
         price: '260 с',
-        image: './img/juice/juice.png'
+        image: './img/juice/juice-carrot.png'
       },
     ],
     lemonades: [
