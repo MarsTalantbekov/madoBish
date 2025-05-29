@@ -1127,7 +1127,14 @@ const cardsData = {
         image: './img/ice-coffee/ice-tonic.png'
       },
       {
-        title: 'Апельсиновый бамбл',
+        title: 'Апельсиновый бамбл на сокосодержащем напитке',
+        description: 'Яркий, освежающий коктейль. Апельсиновый сок в сочетании крепкого эспрессо дает идельный баланс для гурманов',
+        weight: '330 мл',
+        price: '250 с',
+        image: './img/ice-coffee/ice-boomble.png'
+      },
+      {
+        title: 'Апельсиновый бамбл на свежевыжатом соке',
         description: 'Яркий, освежающий коктейль. Апельсиновый сок в сочетании крепкого эспрессо дает идельный баланс для гурманов',
         weight: '330 мл',
         price: '350 с',
@@ -1163,28 +1170,28 @@ const cardsData = {
         description: 'Бодрящий напиток с содержанием большого количества витамина "C"',
         weight: '250 мл',
         price: '280 с',
-        image: './img/juice/juice-orange.png'
+        image: './img/juice/juice.png'
       },
       {
         title: 'Свежевыжатый Грейпфрутовый сок',
         description: 'Напиток обладающий ярким вкусом и пикантной горчинкой',
         weight: '250 мл',
         price: '300 с',
-        image: './img/juice/juice-greip.png'
+        image: './img/juice/juice.png'
       },
       {
         title: 'Свежевыжатый Яблочный сок',
         description: 'Освежающий напиток, благотворно влияющий на организм',
         weight: '250 мл',
         price: '270 с',
-        image: './img/juice/juice-apple.png'
+        image: './img/juice/juice.png'
       },
       {
         title: 'Свежевыжатый Морковный сок',
         description: 'Сок моркови богат витаминами, положительно влияет на здоровье',
         weight: '250 мл',
         price: '260 с',
-        image: './img/juice/juice-carrot.png'
+        image: './img/juice/juice.png'
       },
     ],
     lemonades: [
