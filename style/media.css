@@ -30,6 +30,10 @@
         width: 100%;
     }
 
+    .about-us__img img {
+        display: none;
+    }
+
     .distr-banner {
         height: 20vh;
     }
@@ -264,8 +268,9 @@
         font-size: 14px;
     }
     .about-us__img img{
-        height: 100%;
-        width: 100%;
+        display: none;
+        height: 70%;
+        width: 70%;
     }
 
 

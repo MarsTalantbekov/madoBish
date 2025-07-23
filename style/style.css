@@ -44,8 +44,9 @@ nav {
     width: 100%;
     position: fixed;
     padding: 20px;
-    box-shadow: 0px 4px 6px 5px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 4px 6px 5px rgba(0, 0, 0, 0.1); */
     z-index: 1000;
+    background-color: var(--blue);
 }
 
 .nav-owl {
@@ -363,7 +364,7 @@ nav {
 .positions-menu {
     /* width: 120px; */
     background-color: var(--yellow);
-    color: #fff;
+    color: var(--blue);
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
@@ -382,6 +383,7 @@ nav {
 .positions-menu:hover {
     background-color: var(--blue);
     border: 1px solid #8a8a8a;
+    color: #fff;
 }
 
 .positions-menu button { 
@@ -789,7 +791,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #dfdfdf;
+    background-color: #fff;
 }
 
 
@@ -999,7 +1001,7 @@ footer {
 }
 
 .subcategory {
-    color: #fff;
+    /* color: #fff; */
     background-color: var(--yellow);
     padding: 10px;
     border-radius: 10px;
@@ -1019,6 +1021,7 @@ footer {
 .subcategory:hover {
     background-color: var(--blue);
     border: 1px solid #fff;
+    color: #fff;
 }
 
 .hidden {
